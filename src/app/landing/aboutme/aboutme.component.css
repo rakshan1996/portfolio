@@ -1,0 +1,19 @@
+#aboutMeContainer{
+    height: 100vh;
+    padding-top: 10%;
+}
+
+h1,h3{
+    color: whitesmoke;
+    font-family: "Archivo Black" ;
+}
+h1{
+    font-size: 4em;
+}
+
+h1 span{
+    color: #0de4ca;
+}
+h3{
+    /* font-size: 1.5em; */
+}
