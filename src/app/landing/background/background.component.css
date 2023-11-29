@@ -1,31 +1,36 @@
-#backgroundImage{
-   background-image: url("../../../assets/Untitled design.png");
-    height: 100vh; 
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    z-index:-1;
-    overflow: hidden;
+#backgroundImage {
+  background-image: url("../../../assets/Untitled design.png");
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  z-index: -1;
+  overflow: hidden;
 }
-#developer{
-    position: relative;
-    width:40%;
-    
+#developer {
+  position: relative;
+  width: 40%;
 }
-#developer img{
-    position: absolute;
-    bottom: 0;
-    left: 0;
+#developer img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
+#rightContainer {
+  height: 100%;
+  width: 60%;
+  position: relative;
+  overflow: auto;
+}
 
-
-#rightContainer{
-    height: 100%;
-    width: 60%;
-    position:relative;
-    overflow: auto;
+#socialMedia {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 60%;
+  margin-bottom: 30px;
 }
